@@ -87,6 +87,7 @@ button {
 }
 .st-button:active {
   box-shadow: none;
+  transform: translate3d(0, 3px, 0);
 }
 .pc-view {
   display: block;

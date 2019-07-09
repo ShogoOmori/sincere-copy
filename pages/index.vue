@@ -1,9 +1,9 @@
 <template>
   <div>
     <my-header />
-    <!-- <main>
+    <main>
       <my-main />
-      <my-inform />
+      <!-- <my-inform />
       <my-button />
       <my-merit />
       <my-button />
@@ -12,15 +12,15 @@
       <my-service />
       <my-price />
       <my-flow />
-      <my-example />
+      <my-example /> -->
     </main>
     <my-form />
-    <my-footer /> -->
+    <my-footer />
   </div>
 </template>
 <script>
 import MyHeader from '~/components/Header.vue'
-// import MyMain from '~/components/Main.vue'
+import MyMain from '~/components/Main.vue'
 // import MyInform from '~/components/Information.vue'
 // import MyMerit from '~/components/Merit.vue'
 // import MyAccept from '~/components/Accept.vue'
@@ -35,8 +35,8 @@ import MyHeader from '~/components/Header.vue'
 
 export default {
   components: {
-    MyHeader
-    // MyMain,
+    MyHeader,
+    MyMain
     // MyInform,
     // MyMerit,
     // MyAccept,
