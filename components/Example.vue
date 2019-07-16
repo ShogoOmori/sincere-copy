@@ -203,14 +203,15 @@
           </table>
         </section>
       </div>
-      <img src="~static/images/ref_woman02.png" alt="イメージ女性">
+      <i>
+        <img src="~static/images/ref_woman02.png" alt="イメージ女性">
+      </i>
     </div>
   </section>
 </template>
 <style lang="scss" scoped>
 .st-wrapper{
   padding-bottom: 70px;
-  min-width: 1000px;
 }
 .st-main_title {
   &::before {
@@ -233,14 +234,9 @@
   }
 }
 .st-data_container {
- display: flex;
- justify-content: center;
- .st-data {
-   z-index: 10;
- }
- img {
-   z-index: 0;
- }
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
 }
 .st-data {
   width: 600px;
@@ -339,6 +335,7 @@ table {
   border-collapse: collapse;
   border-spacing: 2px;
   margin-top: 10px;
+  background-color: #fff;
   tr {
     height: 45px;
   }
@@ -378,5 +375,96 @@ tbody {
 em {
   font-weight: bold;
   font-size: 20px;
+}
+@media screen and (max-width: 980px) {
+  .st-data_container {
+    justify-content: space-between;
+    position: relative;
+    img {
+      position: absolute;
+      right: -300px;
+      opacity: .4;
+      z-index:0;
+    }
+  }
+  .st-data {
+    z-index: 10;
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .title {
+    font-size: 4vw;
+  }
+  .st-main_title {
+    &::before {
+      height: 16vw;
+      background-size: contain;
+    }
+  }
+  .st-above {
+    h2 {
+      font-size: 5.5vw;
+    }
+  }
+  .st-money_container {
+    flex-direction: column;
+  }
+  .st-money_before {
+    width: 150px;
+    margin-bottom: 15px;
+    dd {
+      &::before {
+        left: 100%;
+        width: 50px;
+        bottom: 0px;
+        border-left: none;
+        border-bottom: none;
+        border-top: 5px solid #00D0D3;
+        border-right: 5px solid #00D0D3;
+      }
+      &::after {
+          bottom: -40px;
+          right: -72px;
+          border-color: #00D0D3 transparent transparent transparent;
+      }
+    }
+  }
+  .st-money_after {
+    width: 100vw;
+    margin-left: 20px;
+    dt {
+      width: 80%;
+    }
+    dd {
+      width: 80%;
+      text-align: center;
+      font-size: 63px;
+    }
+    .st-yen_after {
+      font-size: 25px;
+    }
+  }
+  .st-data {
+  width: 100vw;
+  margin-left: 10px;
+  margin-top: 30px;
+    p {
+      font-weight: bold;
+    }
+    h1 {
+      font-size: 20px;
+      position: relative;
+      margin-left: 25px;
+      &::before {
+        content:'';
+        width: 0;
+      }
+    }
+  }
+  table {
+    width: 97%;
+    font-size: 14px;
+  }
 }
 </style>

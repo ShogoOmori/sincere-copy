@@ -8,7 +8,7 @@
         <img src="~static/images/ic_page.png" alt="弁護士費用">
       </i>
       <!-- <i class="st-bengoshi"/> -->
-      弁護士費用特約でお得にご依頼頂けます
+      弁護士費用特約で<br class="sp-view">お得にご依頼頂けます
     </h2>
     <p class="st-bengoshi_desc">
       あなたの<em class="text-light">自動車保険に弁護士費用特約</em>が付いていれば、弁護士費用を<br>
@@ -94,10 +94,11 @@ h2 {
 ul {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   margin-top: 20px;
 }
 li {
-  margin: 0 10px;
+  margin: 10px 10px;
 }
 dl {
   border:solid 4px #0082d3;
@@ -123,6 +124,11 @@ dl {
   em {
     font-weight: bold;
     font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 980px) {
+  section {
+    min-width:initial;
   }
 }
 </style>

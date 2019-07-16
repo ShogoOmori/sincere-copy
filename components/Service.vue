@@ -21,7 +21,7 @@
               高度な医学的知見
             </h1>
           </div>
-          <img src="~static/images/ref_service01.jpg" alt="医師の協力">
+          <img src="~static/images/ref_service01.jpg" class="st-image" alt="医師の協力">
           <p>
             事故の裁判は医学的な知見が必要になることも多くあります。<br>
             その際に<span class="text-light">医師の協力</span>を得られるか、協力を得られたとしても<span class="text-light">内容を理解できるか</span>は大きな違いとなります。
@@ -36,7 +36,7 @@
               医学知識の習得
             </h1>
           </div>
-          <img src="~static/images/ref_service02.jpg" alt="本棚">
+          <img src="~static/images/ref_service02.jpg" class="st-image" alt="本棚">
           <p>
             私たちは法的知識はもちろん、<span class="text-light">医学的な知識</span>にも通じております。<br>
             そのため医師の言葉を確実に理解し、あなたに<span class="text-light">ふさわしい等級を得るため</span>のサポートを行えます。
@@ -51,7 +51,7 @@
               協力医師との連携
             </h1>
           </div>
-          <img src="~static/images/ref_service03.jpg" alt="頼れる医師">
+          <img src="~static/images/ref_service03.jpg" class="st-image" alt="頼れる医師">
           <p>
             私たちに協力してくれる医師の方々や、850冊を超える医学の専門書と更にそれ以上の法的知識と経験をもってあなたをバックアップいたします。
           </p>
@@ -100,6 +100,26 @@ li {
     font-weight: bold;
     font-size: 16px;
     line-height: 1.8;
+  }
+}
+@media screen and (max-width: 980px) {
+  ol {
+    flex-direction: column;
+    align-items: center;
+  }
+  li {
+    width: 50vw;
+  }
+  .st-image {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 680px) {
+  h2 {
+    font-size: 6vw;
+  }
+  li {
+    width: 80vw;
   }
 }
 </style>

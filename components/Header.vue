@@ -7,9 +7,7 @@
       <a href="#">ETC</a>
     </div>
     <div class="header-right">
-      <i>
-        <img src="~static/images/ic_tel.png" alt="電話番号はこちら">
-      </i>
+      <a class="st-telicon" href="tel:0120-123-123"><img src="~static/images/ic_tel.png" alt="電話番号はこちら"></a>
       <div class="st-contact">
         <address>
           <a href="tel:0120-123-123">0123-123-123</a>
@@ -25,15 +23,15 @@
 <style lang="scss" scoped>
 header {
   display: flex;
-  justify-content:center;
+  justify-content:space-between;
   align-items: center;
   height: 80px;
 }
 .header-left {
-  margin-right: 350px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   i {
     display: inline-flex;
     align-items: center;
@@ -51,7 +49,8 @@ header {
 .header-right {
   display: flex;
   align-items:center;
-  i {
+  margin-right: 100px;
+  .st-telicon {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -76,5 +75,24 @@ header {
   height: 50px;
   padding: 0 30px;
   margin-left: 10px;
+}
+// tablet
+@media screen and (max-width: 980px) {
+  .header-left {
+  margin-left: 10px;
+  }
+  .header-right {
+  margin-right: 10px;
+  }
+}
+// smartphone
+@media screen and (max-width: 680px) {
+  .st-contact {
+    display: none;
+  }
+  .st-button {
+    padding: 0 2vw;
+    margin-left: 1vw;
+  }
 }
 </style>

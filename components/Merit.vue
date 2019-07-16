@@ -71,4 +71,30 @@
     }
   }
 }
+img {
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 980px) {
+  .st-main {
+    section {
+      flex-direction: column;
+      width: 90vw;
+      .st-content {
+        width: 100%;
+      }
+    }
+    img {
+      object-fit: contain;
+    }
+  }
+}
+@media screen and (max-width: 680px) {
+  section {
+    margin: 0;
+    p {
+      padding: 20px 30px;
+      font-size: 10px;
+    }
+  }
+}
 </style>

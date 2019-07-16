@@ -69,4 +69,22 @@ li {
     font-size: 16px;
   }
 }
+@media screen and (max-width: 980px) {
+ ul {
+   flex-wrap: wrap;
+ }
+}
+@media screen and (max-width: 680px) {
+ li {
+   width: 20vw;
+   p {
+    margin-bottom: 10px;
+    font-size: 2.7vw;
+  }
+ }
+ img {
+   width: 12vw;
+   object-fit: contain;
+ }
+}
 </style>

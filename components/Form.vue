@@ -111,4 +111,15 @@ button {
   margin-bottom: 50px;
   border: none;
 }
+@media screen and (max-width: 980px) {
+  .st-name {
+    flex-direction: column;
+  }
+  input {
+    width: 70vw;
+  }
+  textarea {
+    width: 70vw;
+  }
+}
 </style>

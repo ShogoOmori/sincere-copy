@@ -57,9 +57,8 @@
 section {
   background-image: url(~static/images/bg_main01.jpg);
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   padding:50px 70px 0 110px;
-  min-width: 980px;
 }
 .st-titlebox{
   width: 600px;
@@ -153,7 +152,54 @@ dl {
   padding: 5px 30px;
 }
 img {
-  height: 100%;
+  height: 60vh;
 }
-
+@media screen and (max-width: 980px) {
+  section {
+    padding:50px 0 0 10px;
+  }
+  .st-left {
+    padding-left: 50px;
+    z-index: 10;
+  }
+  section {
+    position: relative;
+  }
+  img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 45vw;
+  }
+}
+@media screen and (max-width: 680px) {
+  .st-left {
+    padding-left: 5px;
+  }
+  .st-apeal {
+    flex-direction: column;
+  }
+  .st-button {
+    width: 190px;
+    margin-bottom: 50px;
+  }
+  img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 50vw;
+  }
+  .st-titlebox{
+    width: 90vw;
+    .st-maintitle {
+      font-size: 9vw;
+    }
+    strong {
+      font-size: 22.5vw;
+    }
+    p {
+      font-size: 4vw;
+    }
+  }
+}
 </style>

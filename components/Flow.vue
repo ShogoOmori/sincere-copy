@@ -98,14 +98,14 @@
         <section>
           <div class="st-content">
             <h1 class="text-blue">
-              5.ご契約
+              5.事件対応
             </h1>
             <p>
-              ご依頼頂ける場合、<span class="text-light">委任契約</span>を締結いたします。<br>
-              内容についてご納得いただけてからの契約になりますので、後々に禍根を残すことなく、ご依頼いただけるかと思います。
+              <span class="text-light">担当弁護士と事務スタッフ</span>が解決までサポートします。<br>
+              相手方との交渉は、全て弁護士にお任せください。
             </p>
           </div>
-          <img src="~static/images/ref_flow04.jpg" alt="握手">
+          <img src="~static/images/ref_flow05.jpg" alt="握手">
         </section>
       </li>
     </ol>
@@ -141,7 +141,7 @@ li {
     &::after {
       content:'';
       position: absolute;
-      right: 50%;
+      right: 45%;
       bottom: -70px;
       width: 0;
       height: 0;
@@ -176,5 +176,56 @@ dt {
 }
 dd {
   margin-top: 15px;
+}
+@media screen and (max-width: 980px) {
+  li {
+    width: 70%;
+    section {
+      flex-direction: column;
+      align-items: center;
+    }
+    .st-content {
+      width: 95%;
+    }
+    img {
+      width: 100%;
+      height: 50vh;
+      margin: 0;
+      object-fit: cover;
+    }
+  }
+  .st-third_content {
+    .st-content_main {
+      flex-direction: column;
+    }
+  }
+}
+@media screen and (max-width: 680px) {
+  li {
+    padding: 50px 10px;
+    width: 70%;
+    section {
+      flex-direction: column;
+      align-items: center;
+    }
+    h1 {
+      font-size: 4vw;
+    }
+    p {
+      margin-top: 270px;
+      position: relative;
+    }
+    img {
+      width: 70vw;
+      height: 250px;
+      position: absolute;
+      top: 100px;
+    }
+    &:not(:last-child) {
+      &::after {
+        left: 35%;
+      }
+    }
+  }
 }
 </style>

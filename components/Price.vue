@@ -125,4 +125,25 @@ dd {
   font-weight: normal;
   padding: 4px;
 }
+@media screen and (max-width: 980px) {
+  .st-list_container {
+    width: 100%;
+  }
+  ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 680px) {
+  .st-title {
+    padding: 10px 0;
+    h1 {
+      font-size: 5vw;
+    }
+  }
+  h2 {
+    font-size:7vw;
+    // margin: 30px 0;
+  }
+}
 </style>
