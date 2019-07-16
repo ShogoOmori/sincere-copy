@@ -315,8 +315,9 @@
 }
 .st-money_after {
   width: 400px;
+  margin-left: 40px;
   dd {
-    font-size: 90px;
+    font-size: 89px;
     font-weight: bold;
   }
   dt {
