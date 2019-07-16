@@ -1,6 +1,8 @@
 <template>
   <section class="st-main">
-    <h1 class="title light">医学の知識がなくては交渉に勝てません！</h1>
+    <h1 class="title light">
+      医学の知識がなくては交渉に勝てません！
+    </h1>
     <h2 class="text-blue">
       弁護士法人ETCでは、<br>
       医療事件に特化した事業部を設置！
@@ -15,7 +17,9 @@
         <section class="st-sub_section">
           <div class="st-title">
             <img src="~static/images/num_service01.png" alt="1">
-            <h1 class="text-blue">高度な医学的知見</h1>
+            <h1 class="text-blue">
+              高度な医学的知見
+            </h1>
           </div>
           <img src="~static/images/ref_service01.jpg" alt="医師の協力">
           <p>
@@ -28,7 +32,9 @@
         <section class="st-sub_section">
           <div class="st-title">
             <img src="~static/images/num_service02.png" alt="2">
-            <h1 class="text-blue">医学知識の習得</h1>
+            <h1 class="text-blue">
+              医学知識の習得
+            </h1>
           </div>
           <img src="~static/images/ref_service02.jpg" alt="本棚">
           <p>
@@ -41,7 +47,9 @@
         <section class="st-sub_section">
           <div class="st-title">
             <img src="~static/images/num_service03.png" alt="3">
-            <h1 class="text-blue">協力医師との連携</h1>
+            <h1 class="text-blue">
+              協力医師との連携
+            </h1>
           </div>
           <img src="~static/images/ref_service03.jpg" alt="頼れる医師">
           <p>

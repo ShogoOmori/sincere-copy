@@ -18,7 +18,9 @@
     <ul>
       <li>
         <dl>
-          <dt class="blue">どんなタイミングで<br>契約できるの？</dt>
+          <dt class="blue">
+            どんなタイミングで<br>契約できるの？
+          </dt>
           <dd class="text-orange">
             <div>
               <em>自動車保険</em>の<br>オプション契約
@@ -28,7 +30,9 @@
       </li>
       <li>
         <dl>
-          <dt class="blue">入っていなかったのだけれど、<br>何とかならない？</dt>
+          <dt class="blue">
+            入っていなかったのだけれど、<br>何とかならない？
+          </dt>
           <dd class="text-orange">
             <div>
               <em>ご家族</em>が、<br>契約されていれば、<br>適用可能
@@ -38,19 +42,31 @@
       </li>
       <li>
         <dl>
-          <dt class="blue">限度額はあるの？</dt>
+          <dt class="blue">
+            限度額はあるの？
+          </dt>
           <dd class="text-orange">
-            <p>弁護士費用<br>＝300万円限度</p>
-            <p>法律相談費用<br>=10万円限度</p>
+            <p>
+              弁護士費用<br>＝300万円限度
+            </p>
+            <p>
+              法律相談費用<br>=10万円限度
+            </p>
           </dd>
         </dl>
       </li>
       <li>
         <dl>
-          <dt class="blue">相場はどれくらい？</dt>
+          <dt class="blue">
+            相場はどれくらい？
+          </dt>
           <dd class="text-orange">
-            <p>弁護士費用<br>＝20万円＋獲得金額の10%</p>
-            <p>法律相談費用<br>＝5,000～10,000円</p>
+            <p>
+              弁護士費用<br>＝20万円＋獲得金額の10%
+            </p>
+            <p>
+              法律相談費用<br>＝5,000～10,000円
+            </p>
           </dd>
         </dl>
       </li>

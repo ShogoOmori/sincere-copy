@@ -1,9 +1,13 @@
 <template>
   <section class="st-main">
-    <h1 class="title light">弁護士に相談するメリット</h1>
+    <h1 class="title light">
+      弁護士に相談するメリット
+    </h1>
     <section>
       <div class="st-content">
-        <h1 class="text-blue">請求金額が大幅に増える</h1>
+        <h1 class="text-blue">
+          請求金額が大幅に増える
+        </h1>
         <p>
           損害賠償額は、自賠責保険＜任意保険＜裁判の順位算定額が高額となることが多いと言えます。<br>
           保険会社は任意保険の算定基準で示談金学を提示してきますが、弁護士は裁判の算定基準額で増額交渉を行います。
@@ -13,7 +17,9 @@
     </section>
     <section>
       <div class="st-content">
-        <h1 class="text-blue">保険会社とのやり取りは弁護士に</h1>
+        <h1 class="text-blue">
+          保険会社とのやり取りは弁護士に
+        </h1>
         <p>
           相手側もできるだけ賠償金額を少なくしたいと考えるのが当然です。<br>
           「保険会社からの提案に納得できない」「損害の一部を認めてくれない」など、交渉の経験が無い方は不安が多いことと思います。
@@ -23,7 +29,9 @@
     </section>
     <section>
       <div class="st-content">
-        <h1 class="text-blue">スピーディで柔軟な対応</h1>
+        <h1 class="text-blue">
+          スピーディで柔軟な対応
+        </h1>
         <p>
           一般的な法律事務所は、個人もしくは小規模体制で対応してます。<br>
           そのため、「連絡が取れない」「返事が遅い」「対応が遅い」といったお悩みが出やすい状態になっています。

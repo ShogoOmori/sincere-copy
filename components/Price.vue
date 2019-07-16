@@ -4,7 +4,9 @@
       <h1>増額しない場合、成功報酬は頂きません！</h1>
       <strong>※諸経費20,000円がかかります</strong>
     </div>
-    <h2 class="text-blue">皆さんに安心していただける<br>料金プラン</h2>
+    <h2 class="text-blue">
+      皆さんに安心していただける<br>料金プラン
+    </h2>
     <p>
       弁護士法人ETCは交通事故の被害に遭われて、<br>
       困っているあなたが最小限のリスクで相談できるプランを作っています。
@@ -13,20 +15,32 @@
       <ul>
         <li>
           <dl>
-            <dt class="light">相談料</dt>
-            <dd class="text-orange st-zero"><strong>0</strong>円</dd>
+            <dt class="light">
+              相談料
+            </dt>
+            <dd class="text-orange st-zero">
+              <strong>0</strong>円
+            </dd>
           </dl>
         </li>
         <li>
           <dl>
-            <dt class="light">着手金</dt>
-            <dd class="text-orange st-zero"><strong>0</strong>円</dd>
+            <dt class="light">
+              着手金
+            </dt>
+            <dd class="text-orange st-zero">
+              <strong>0</strong>円
+            </dd>
           </dl>
         </li>
         <li>
           <dl>
-            <dt class="light">弁護士<br>報酬</dt>
-            <dd class="text-orange"><em>成功<br>報酬制</em></dd>
+            <dt class="light">
+              弁護士<br>報酬
+            </dt>
+            <dd class="text-orange">
+              <em>成功<br>報酬制</em>
+            </dd>
           </dl>
         </li>
       </ul>

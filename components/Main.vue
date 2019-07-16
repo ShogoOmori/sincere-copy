@@ -10,26 +10,40 @@
             <em class="text-blue">賠償金額</em>を<br><strong class="text-blue">無料診断</strong>
           </span>
         </h1>
-        <p class="text-light">増額しなければ、成功報酬はいただきません</p>
+        <p class="text-light">
+          増額しなければ、成功報酬はいただきません
+        </p>
       </div>
       <div class="st-apeal">
         <ul>
           <li class="st-zeromoney">
             <dl>
-              <dt class="light">着手金</dt>
-              <dd class="text-orange"><em>0</em>円</dd>
+              <dt class="light">
+                着手金
+              </dt>
+              <dd class="text-orange">
+                <em>0</em>円
+              </dd>
             </dl>
           </li>
           <li class="st-zeromoney">
             <dl>
-              <dt class="light">相談料</dt>
-              <dd class="text-orange"><em>0</em>円</dd>
+              <dt class="light">
+                相談料
+              </dt>
+              <dd class="text-orange">
+                <em>0</em>円
+              </dd>
             </dl>
           </li>
           <li class="st-successmoney">
             <dl>
-              <dt class="light">弁護士<br>報酬</dt>
-              <dd class="text-orange">成功報酬制</dd>
+              <dt class="light">
+                弁護士<br>報酬
+              </dt>
+              <dd class="text-orange">
+                成功報酬制
+              </dd>
             </dl>
           </li>
         </ul>

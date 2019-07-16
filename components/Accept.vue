@@ -1,33 +1,45 @@
 <template>
   <section>
-    <h1 class="title light">相談でこんなお悩みありませんか？</h1>
+    <h1 class="title light">
+      相談でこんなお悩みありませんか？
+    </h1>
     <ul>
       <li class="light">
-        <p>信頼できる<br>大きい事務所に<br>相談したい</p>
+        <p>
+          信頼できる<br>大きい事務所に<br>相談したい
+        </p>
         <i>
           <img src="~static/images/ic_accept01.png" alt="大きい事務所">
         </i>
       </li>
       <li class="light">
-        <p>遠方だと<br>相談に行くのが<br>大変</p>
+        <p>
+          遠方だと<br>相談に行くのが<br>大変
+        </p>
         <i>
           <img src="~static/images/ic_accept02.png" alt="日本列島">
         </i>
       </li>
       <li class="light">
-        <p>事務所まで<br>行く時間がない</p>
+        <p>
+          事務所まで<br>行く時間がない
+        </p>
         <i>
           <img src="~static/images/ic_accept03.png" alt="砂時計">
         </i>
       </li>
       <li class="light">
-        <p>交渉に強い<br>弁護士に<br>相談したい</p>
+        <p>
+          交渉に強い<br>弁護士に<br>相談したい
+        </p>
         <i>
           <img src="~static/images/ic_accept04.png" alt="弁護士">
         </i>
       </li>
       <li class="light">
-        <p>示談金に<br>納得がいかない</p>
+        <p>
+          示談金に<br>納得がいかない
+        </p>
         <i>
           <img src="~static/images/ic_accept05.png" alt="納得がいかない人">
         </i>

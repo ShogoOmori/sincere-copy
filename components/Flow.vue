@@ -1,6 +1,8 @@
 <template>
   <section>
-    <h1 class="title light">経験豊富なチームがサポート！</h1>
+    <h1 class="title light">
+      経験豊富なチームがサポート！
+    </h1>
     <div class="st-main">
       <h2 class="text-light">
         ご相談から解決まで<br>
@@ -17,7 +19,9 @@
       <li>
         <section>
           <div class="st-content">
-            <h1 class="text-blue">1.お問い合わせ</h1>
+            <h1 class="text-blue">
+              1.お問い合わせ
+            </h1>
             <p>
               <span class="text-light">お電話もしくはメールフォームより</span>お気軽にご相談下さい。<br>
               交通事故事件専属の受付スタッフが、事故状況や被害者の方のお悩み等を詳細にお伺いし、法律相談までに準備して頂きたい事項があればご案内いたします。<br>
@@ -30,7 +34,9 @@
       <li>
         <section>
           <div class="st-content">
-            <h1 class="text-blue">2.事前ミーティング</h1>
+            <h1 class="text-blue">
+              2.事前ミーティング
+            </h1>
             <p>
               お電話でお伺いした内容を基に、<span class="text-light">弁護士と受付スタッフでミーティング</span>を行い、法律相談までに必要な準備事項を打ち合わせます。<br>
               また、弁護士は、ご相談までに可能なリサーチを行い、事件の方針、見通し等を検討します。
@@ -43,7 +49,9 @@
         <section class="st-third_content">
           <div class="st-content_main">
             <div class="st-content">
-              <h1 class="text-blue">3.法律相談（ご来所又は、お電話）</h1>
+              <h1 class="text-blue">
+                3.法律相談（ご来所又は、お電話）
+              </h1>
               <p>
                 弁護士に疑問点やお悩みなどをお聞かせください。事前の聞き取りとリサーチに基づき、具体的なアドバイスをいたします。<br>
                 また、<span class="text-light">見込まれる後遺障害等級、適正な損害賠償額、予想される争点など</span>事件の見通しを可能な限りご説明し、解決までの道筋と事案に応じ戦略をご提案いたします。もちろん、<span class="text-light">弁護士費用</span>についてもご説明いたします。
@@ -53,14 +61,18 @@
           </div>
           <div class="st-item">
             <dl>
-              <dt class="text-blue">来所相談の場合</dt>
+              <dt class="text-blue">
+                来所相談の場合
+              </dt>
               <dd>
                 最寄りの本部または支部をご案内させて頂きます。<br>
                 支部が無い地域にお住まいでも、電話による法律相談が可能です。
               </dd>
             </dl>
             <dl>
-              <dt class="text-blue">お電話相談の場合</dt>
+              <dt class="text-blue">
+                お電話相談の場合
+              </dt>
               <dd>
                 予めスタッフがご都合の良い日時をお聞きし、時間になれば弁護士からお電話をさせて頂きます。
               </dd>
@@ -71,7 +83,9 @@
       <li>
         <section>
           <div class="st-content">
-            <h1 class="text-blue">4.ご契約</h1>
+            <h1 class="text-blue">
+              4.ご契約
+            </h1>
             <p>
               ご依頼頂ける場合、<span class="text-light">委任契約</span>を締結いたします。<br>
               内容についてご納得いただけてからの契約になりますので、後々に禍根を残すことなく、ご依頼いただけるかと思います。
@@ -83,7 +97,9 @@
       <li>
         <section>
           <div class="st-content">
-            <h1 class="text-blue">5.ご契約</h1>
+            <h1 class="text-blue">
+              5.ご契約
+            </h1>
             <p>
               ご依頼頂ける場合、<span class="text-light">委任契約</span>を締結いたします。<br>
               内容についてご納得いただけてからの契約になりますので、後々に禍根を残すことなく、ご依頼いただけるかと思います。

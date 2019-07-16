@@ -13,7 +13,9 @@
       <div class="st-contact">
         <address>
           <a href="tel:0120-123-123">0123-123-123</a>
-          <p>受付時間 | 9:30~20:00 土日祝日を除く</p>
+          <p>
+            受付時間 | 9:30~20:00 土日祝日を除く
+          </p>
         </address>
       </div>
       <a href="#" class="st-button">お問い合わせはこちら</a>

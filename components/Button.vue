@@ -1,17 +1,25 @@
 <template>
   <section class="st-form">
     <div class="st-form_title light">
-      <h1>損害賠償金額<span>無料診断</span></h1>
-      <p>保険会社提示の賠償金に疑問を抱かれた方はご相談ください</p>
+      <h1>
+        損害賠償金額<span>無料診断</span>
+      </h1>
+      <p>
+        保険会社提示の賠償金に疑問を抱かれた方はご相談ください
+      </p>
     </div>
     <div class="st-form_content">
       <a href="#" class="st-button">お問い合わせはこちら</a>
       <div class="st-form_access">
-        <p><span class="blue">24H</span>受付窓口にて、無料診断ご希望の旨をお伝えください</p>
+        <p>
+          <span class="blue">24H</span>受付窓口にて、無料診断ご希望の旨をお伝えください
+        </p>
         <img src="~static/images/ic_tel_blue.png" alt="電話のマーク">
         <address>
           <a href="tel:0120-123-123" class="text-blue">0123-123-123</a>
-          <p class="text-blue">受付時間 | 9:30~20:00 土日祝日を除く</p>
+          <p class="text-blue">
+            受付時間 | 9:30~20:00 土日祝日を除く
+          </p>
         </address>
       </div>
     </div>

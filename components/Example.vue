@@ -1,8 +1,12 @@
 <template>
   <section class="st-wrapper">
-    <h1 class="st-main_title title light">交渉は私たちプロにお任せください！</h1>
+    <h1 class="st-main_title title light">
+      交渉は私たちプロにお任せください！
+    </h1>
     <div class="st-above">
-      <h2 class="text-blue">保険会社とは根本的に異なる判断基準</h2>
+      <h2 class="text-blue">
+        保険会社とは根本的に異なる判断基準
+      </h2>
       <p>
         交通事故の損害賠償請求は保険会社に任せにしてしまうと、<br>
         適正な賠償を受け取れない可能性があります。
@@ -13,101 +17,187 @@
         <p>女性【専業主婦】後遺障害等級12級</p>
         <div class="st-money_container">
           <dl class="st-money_before">
-            <dt class="light">賠償金額</dt>
-            <dd class="text-blue">約480<span class="st-yen_before">万円</span></dd>
+            <dt class="light">
+              賠償金額
+            </dt>
+            <dd class="text-blue">
+              約480<span class="st-yen_before">万円</span>
+            </dd>
           </dl>
           <dl class="st-money_after">
-            <dt>約570万円増額!!</dt>
-            <dd class="text-orange">約1,050<span class="st-yen_after">万円</span></dd>
+            <dt>
+              約570万円増額!!
+            </dt>
+            <dd class="text-orange">
+              約1,050<span class="st-yen_after">万円</span>
+            </dd>
           </dl>
         </div>
         <section>
-          <h1 class="text-light">障害による損害額</h1>
+          <h1 class="text-light">
+            障害による損害額
+          </h1>
           <table>
             <thead>
               <tr class="st-narrow">
-                <th>項目</th>
-                <th>算定額(ご依頼前)</th>
-                <th class="text-light">算定額(ご依頼後)</th>
+                <th>
+                  項目
+                </th>
+                <th>
+                  算定額(ご依頼前)
+                </th>
+                <th class="text-light">
+                  算定額(ご依頼後)
+                </th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td class="light">治療費</td>
-                <td>支払い済み</td>
-                <td>支払い済み</td>
+                <td class="light">
+                  治療費
+                </td>
+                <td>
+                  支払い済み
+                </td>
+                <td>
+                  支払い済み
+                </td>
               </tr>
               <tr>
-                <td class="light">通院費</td>
-                <td>26,460円</td>
-                <td>26,460円</td>
+                <td class="light">
+                  通院費
+                </td>
+                <td>
+                  26,460円
+                </td>
+                <td>
+                  26,460円
+                </td>
               </tr>
               <tr class="st-wide">
-                <td class="light">休業損害<span>※1</span></td>
-                <td class="text-blue">837,900円</td>
-                <td class="text-light"><em>1,306,500円</em></td>
+                <td class="light">
+                  休業損害<span>※1</span>
+                </td>
+                <td class="text-blue">
+                  837,900円
+                </td>
+                <td class="text-light">
+                  <em>1,306,500円</em>
+                </td>
               </tr>
               <tr class="st-wide">
-                <td class="light">障害慰謝料<span>※1</span></td>
-                <td class="text-blue">867,900円</td>
-                <td class="text-light"><em>1,348,000円</em></td>
+                <td class="light">
+                  障害慰謝料<span>※1</span>
+                </td>
+                <td class="text-blue">
+                  867,900円
+                </td>
+                <td class="text-light">
+                  <em>1,348,000円</em>
+                </td>
               </tr>
             </tbody>
             <tfoot>
               <tr>
-                <td class="orange">小計<span>A</span></td>
-                <td class="orange">1,732,260円</td>
-                <td class="orange"><em>2,680,960円</em></td>
+                <td class="orange">
+                  小計<span>A</span>
+                </td>
+                <td class="orange">
+                  1,732,260円
+                </td>
+                <td class="orange">
+                  <em>2,680,960円</em>
+                </td>
               </tr>
             </tfoot>
           </table>
         </section>
         <section>
-          <h1 class="text-light">後遺障害による損害額</h1>
+          <h1 class="text-light">
+            後遺障害による損害額
+          </h1>
           <table>
             <thead>
               <tr class="st-narrow">
-                <th>項目</th>
-                <th>算定額(ご依頼前)</th>
-                <th class="text-light">算定額(ご依頼後)</th>
+                <th>
+                  項目
+                </th>
+                <th>
+                  算定額(ご依頼前)
+                </th>
+                <th class="text-light">
+                  算定額(ご依頼後)
+                </th>
               </tr>
             </thead>
             <tbody>
               <tr class="st-wide">
-                <td class="light">逸失利益</td>
-                <td class="text-blue">2,104,752円</td>
-                <td class="text-light"><em>4,919,040円</em></td>
+                <td class="light">
+                  逸失利益
+                </td>
+                <td class="text-blue">
+                  2,104,752円
+                </td>
+                <td class="text-light">
+                  <em>4,919,040円</em>
+                </td>
               </tr>
               <tr class="st-wide">
-                <td class="light">後遺障害<br>慰謝料</td>
-                <td class="text-blue">930,000円</td>
-                <td class="text-light"><em>2,900,000円</em></td>
+                <td class="light">
+                  後遺障害<br>慰謝料
+                </td>
+                <td class="text-blue">
+                  930,000円
+                </td>
+                <td class="text-light">
+                  <em>2,900,000円</em>
+                </td>
               </tr>
             </tbody>
             <tfoot>
               <tr>
-                <td class="orange">小計<span>B</span></td>
-                <td class="orange">3,034,725円</td>
-                <td class="orange"><em>7,819,040円</em></td>
+                <td class="orange">
+                  小計<span>B</span>
+                </td>
+                <td class="orange">
+                  3,034,725円
+                </td>
+                <td class="orange">
+                  <em>7,819,040円</em>
+                </td>
               </tr>
             </tfoot>
           </table>
         </section>
         <section>
-          <h1 class="text-light">損害賠償額</h1>
+          <h1 class="text-light">
+            損害賠償額
+          </h1>
           <table>
             <thead>
               <tr class="st-narrow">
-                <th>項目</th>
-                <th>算定額(ご依頼前)</th>
-                <th class="text-light">算定額(ご依頼後)</th>
+                <th>
+                  項目
+                </th>
+                <th>
+                  算定額(ご依頼前)
+                </th>
+                <th class="text-light">
+                  算定額(ご依頼後)
+                </th>
               </tr>
             </thead>
             <tfoot>
               <tr>
-                <td class="orange">小計<span>A+B</span></td>
-                <td class="orange">1,732,260円</td>
-                <td class="orange"><em>2,680,960円</em></td>
+                <td class="orange">
+                  小計<span>A+B</span>
+                </td>
+                <td class="orange">
+                  1,732,260円
+                </td>
+                <td class="orange">
+                  <em>2,680,960円</em>
+                </td>
               </tr>
             </tfoot>
           </table>

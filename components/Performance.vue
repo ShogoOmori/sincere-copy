@@ -1,7 +1,11 @@
 <template>
   <section>
-    <h1 class="title light">厚いご信頼を支える膨大な実績</h1>
-    <h2 class="st-apeal text-blue"><strong>弁護士法人ETCは解決実績8000件以上!!</strong></h2>
+    <h1 class="title light">
+      厚いご信頼を支える膨大な実績
+    </h1>
+    <h2 class="st-apeal text-blue">
+      <strong>弁護士法人ETCは解決実績8000件以上!!</strong>
+    </h2>
     <div>
       <img src="~static/images/ref_perform01.jpg" alt="笑顔の人">
       <img src="~static/images/ref_perform02.jpg" alt="真顔の人">
