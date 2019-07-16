@@ -70,7 +70,7 @@
     </form>
   </section>
 </template>
-<style lang="scss">
+<style lang="scss" scoped>
 form {
   display: flex;
   flex-direction: column;
